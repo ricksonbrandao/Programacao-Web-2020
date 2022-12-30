@@ -1,0 +1,228 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: url("../imagens/background/body.png");
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*Principal*/
+#principal{
+    background-color: rgba(41, 6, 87, 0.705);
+	padding: 20px 10px;
+    text-align: center;
+    float: left;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*Menu*/
+#div_menu img{
+    padding: 10px;
+}
+.menu{
+    list-style: none;
+    height: 20px;
+}
+.menu li{
+    position: relative;
+    float: left;
+    width: 393px;
+    border: solid black;
+}
+.menu a{
+    text-decoration: none;
+    background: url("../imagens/background/body.png");
+    display: block;
+}
+.menu li a{
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    display: block;
+}
+.menu li a:hover{
+    background:rgba(33, 246, 51, 0.356);
+    color: black;
+    text-shadow: 10px;
+    -webkit-box-shadow: 0 3px 10px 0 black;
+}
+.selecionado a {
+    background: rgba(241, 223, 56, 0.658);
+}
+.submenu a{
+    background: url("../imagens/background/body.png");
+}
+.submenu_selecionado a{
+    background: rgba(241, 223, 56, 0.658);
+}
+.menu li ul{ /*esconde o sub_menu*/
+    position: absolute;
+    top: 34px;
+    left: 0;
+    display: none;
+}
+.menu li:hover ul, .menu li.hover ul{
+    display: block;
+}
+.menu li ul li{
+    list-style: none;
+    display: block;
+    width: 393px;
+}
+
+/*corpo*/
+#div_corpo{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    float: left;
+}
+/*1-card*/
+.div_card img{
+    width: 700px;
+    height: 300px;
+    margin: 1%;
+    border: 2px solid rgba(255, 255, 255, 0.294);
+}
+
+/*2-galeria*/
+.div_galeria{
+    width: 80%;
+    margin: auto;
+}
+.not_principal1{
+    border: 2px solid black;
+    border-radius: 10px;
+    float: left;
+    width: 280px;
+    height: 180px;
+    background: url("../imagens/img_publicacao/img1.jpg");
+    background-size: cover;
+    margin: 1%;
+}
+.not_principal2{
+    border: 2px solid black;
+    border-radius: 10px;
+    float: left;
+    width: 280px;
+    height: 180px;
+    background: url("../imagens/img_publicacao/img6.jpg");
+    background-size: cover;
+    margin: 1%;
+}
+.not_principal3{
+    border: 2px solid black;
+    border-radius: 10px;
+    float: left;
+    width: 280px;
+    height: 180px;
+    background: url("../imagens/img_publicacao/img2.jpg");
+    background-size: cover;
+    margin: 1%;
+}
+.not_principal4{
+    border: 2px solid black;
+    border-radius: 10px;
+    float: left;
+    width: 280px;
+    height: 180px;
+    background: url("../imagens/img_publicacao/img5.jpg");
+    background-size: cover;
+    margin: 1%;
+}
+.not_principal5{
+    border: 2px solid black;
+    border-radius: 10px;
+    float: left;
+    width: 280px;
+    height: 180px;
+    background: url("../imagens/img_publicacao/img3.jpg");
+    background-size: cover;
+    margin: 1%;
+}
+.not_principal6{
+    border: 2px solid black;
+    border-radius: 10px;
+    float: left;
+    width: 280px;
+    height: 180px;
+    background: url("../imagens/img_publicacao/img4.jpg");
+    background-size: cover;
+    margin: 1%;
+}
+.not_texto{
+    float: right;
+    display: block;
+    text-align: justify;
+    padding: 5px;
+    margin-top: 150px;
+    background: rgba(31, 27, 26, 0.459);
+
+}
+.div_galeria a{
+    text-decoration: none;
+    color: white;
+}
+
+/*Rodape*/
+#div_rodape{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background: url("../imagens/background/body.png");
+    color: white;
+    float: left; 
+    clear: both;
+}
+#div_rodape h3{
+    padding: 10px;
+}
+
+.div_sugestoes{
+    width: 40%;
+    padding: 10px;
+    margin: 15px;
+    height: auto;
+    float: left;
+    display: block;
+}
+#caixa_nome{
+    border: 2px solid black;
+    width: 75%;
+    height: 25px;
+    margin: 10px;
+}
+#caixa_email{
+    border: 2px solid black;
+    width: 75%;
+    height: 25px;
+}
+textarea{
+    padding: 5px;
+    width: 450px;
+    border: 2px solid black;
+}
+.div_nota {
+    width: 53%;
+    margin: 15px;
+    height: auto;
+    float: right;
+    display: block;
+}
+.div_nota p{
+    padding: 68px;
+}
+p{
+    width: 100%;
+    margin: auto;
+    float: left;
+    clear: both;
+    margin: 15px;
+}

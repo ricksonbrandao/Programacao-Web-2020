@@ -1,0 +1,32 @@
+/*Corpo*/
+.div_cat_pc h1, .div_cat_mobile h1{
+    color: white;
+    padding: 15px;
+}
+.div_cat_pc a, .div_cat_mobile a{
+    text-decoration: none;
+} 
+
+.div_cat_pc{
+    float: left;
+    display: block;
+    width: 50%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.div_cat_mobile{
+    float: left;
+    display: block;
+    width: 50%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.div_cat_pc img, .div_cat_mobile img{
+    border: 3px solid black;
+    width: 400px;
+    height: 250px;
+    padding: 10px;
+    background: url("../imagens/background/body.png");
+}

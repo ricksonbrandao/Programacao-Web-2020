@@ -1,0 +1,80 @@
+/*------Corpo categoria-------*/
+.conteudo1{
+    height: 610px;
+    width: 780px;
+    float: left;
+    color: white;
+    padding: 5px;
+}
+.conteudo1 a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+.noticia1{
+    border: 2px solid black;
+    border-radius: 10px;
+    float: left;
+    margin-left: 10px;
+    margin-top: 5px;
+    width: 370px;
+    height: 270px;
+    background: url("../imagens/img_publicacao/img1.jpg");
+    background-size: cover;
+}
+.noticia2{
+    border: 2px solid black;
+    border-radius: 10px;
+    float: right;
+    margin-top: 5px;
+    margin-right: 10px;
+    width: 370px;
+    height: 270px;
+    background: url("../imagens/img_publicacao/img2.jpg");
+    background-size: cover;
+}
+.noticia3{
+    border: 2px solid black;
+    border-radius: 10px;
+    float: left;
+    margin-left: 10px;
+    margin-top: 5px;
+    width: 370px;
+    height: 270px;
+    background: url("../imagens/img_publicacao/img3.jpg");
+    background-size: cover;
+}
+.noticia4{
+    border: 2px solid black;
+    border-radius: 10px;
+    float: right;
+    margin-top: 5px;
+    margin-right: 10px;
+    width: 370px;
+    height: 270px;
+    background: url("../imagens/img_publicacao/img4.jpg");
+    background-size: cover;
+}
+.noticia1:hover, .noticia2:hover, .noticia3:hover, .noticia4:hover{
+    border: 2px solid white;
+}
+.noticia-texto{
+    float: right;
+    display: block;
+    text-align: justify;
+    padding: 5px;
+    font-family: Helvetica;
+    margin-top: 150px;
+}
+.conteudo2{
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 610px;
+    width: 400px;
+    float: right;
+    background: url("../imagens/img_publicacao/img1.jpg");
+    background-size: cover;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

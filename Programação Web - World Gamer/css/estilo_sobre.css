@@ -1,0 +1,15 @@
+/*Corpo*/
+.div_img_equipe{
+    width: 900px;
+    display: inline-block;
+}
+.div_img_equipe img{
+    padding: 30px;
+    width: 500px;
+}
+.div_text_apresentation{
+    color: white;
+    width: 900px;
+    display: inline-block;
+    text-align: center;
+}

@@ -1,0 +1,35 @@
+/*---corpo publicacao*/
+.corpo_publicacao{
+    
+    width: 1200px;
+    height: 1200px;
+    
+}
+.corpo_publicacao img{
+    width: 700px;
+}
+.titulo_publicacao{
+    margin-top: 15px;
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-bottom: 20px;
+    text-align: justify;
+    color: white;
+    font-size: 15px;
+}
+.titulo_publicacao h2{
+    color: white;
+    font-size: 38px;
+    text-align: justify;
+
+
+}
+
+.texto_publicacao{
+    padding-top: 20px;
+    padding-right: 240px;
+    padding-left: 240px;
+    color: white;
+    font-size: 20px;
+    text-align: justify;
+}
